@@ -1,5 +1,5 @@
 :root {
-    font-family: sans-serif, Helvetica;
+    font-family: "Courier New", Courier, monospace;
 
     color-scheme: dark light;
 
@@ -32,17 +32,7 @@ header {
     }
 }
 
-.small-text {
-    font-size: 0.7rem;
-    text-transform: lowercase;
-    font-weight: normal;
-}
-
-.crossed {
-    text-decoration-line: line-through;
-}
-
 .footer {
-    border-top: 1px solid;
+    border-top: 1px dashed;
     margin-top: 24px;
 }
