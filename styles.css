@@ -1,0 +1,42 @@
+body {
+    margin: 0 auto;
+    padding: 0 8px;
+    max-width: 70ch;
+
+    font-family: sans-serif, Helvetica;
+}
+
+header {
+    padding-top: 24px;
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+    }
+}
+
+.small-text {
+    font-size: 0.7rem;
+    text-transform: lowercase;
+    font-weight: normal;
+}
+
+.really-small {
+    font-size: 0.6rem;
+}
+
+.crossed {
+    text-decoration-line: line-through;
+}
+
+.footer {
+    border-top: 1px solid;
+    margin-top: 24px;
+}
