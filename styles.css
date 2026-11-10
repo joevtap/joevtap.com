@@ -1,9 +1,19 @@
+:root {
+    font-family: sans-serif, Helvetica;
+
+    color-scheme: dark light;
+
+    --bg: light-dark(#eeeeee, #181818);
+    --fg: light-dark(#444444, #eeeeee);
+
+    background-color: var(--bg);
+    color: var(--fg);
+}
+
 body {
     margin: 0 auto;
     padding: 0 8px;
     max-width: 70ch;
-
-    font-family: sans-serif, Helvetica;
 }
 
 header {
@@ -26,10 +36,6 @@ header {
     font-size: 0.7rem;
     text-transform: lowercase;
     font-weight: normal;
-}
-
-.really-small {
-    font-size: 0.6rem;
 }
 
 .crossed {
